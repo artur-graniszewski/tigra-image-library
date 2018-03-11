@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Image</title>
+			<link rel="stylesheet" href="stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Image</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Allows advanced image processing.</p>
+		<p class="notes">
+			Located in <a class="field" href="index.html">/gd2imaging.php</a> (line <span class="field">557</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																								<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$height" title="details" class="var-name">$height</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">resource</span>
+					<a href="#$image" title="details" class="var-name">$image</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+					<a href="#$parentImage" title="details" class="var-name">$parentImage</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">mixed</span>
+					<a href="#$position" title="details" class="var-name">$position</a>
+				</div>
+																<div class="var-title">
+					<span class="var-type">int</span>
+					<a href="#$width" title="details" class="var-name">$width</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																																																																																																																																																																																																												
+												<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>, [<span class="var-type">resource</span>&nbsp;<span class="var-name">$image</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">null</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#createImageMatrix" title="details" class="method-name">createImageMatrix</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">0</span>], <span class="var-type"></span>&nbsp;<span class="var-name">&$ratio</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$ratio</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#crop" title="details" class="method-name">crop</a>
+											(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$dimensions</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#deskew" title="details" class="method-name">deskew</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">-1</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">true</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$debugMode</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#drawHoughLine" title="details" class="method-name">drawHoughLine</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$distance</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$theta</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$color</span> = <span class="var-default">111111</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Image[]</span>
+										<a href="#findObjects" title="details" class="method-name">findObjects</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$sortMode</span> = <span class="var-default">1</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">mixed</span>
+										<a href="#getBackgroundColor" title="details" class="method-name">getBackgroundColor</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$numberOfSamples</span> = <span class="var-default">1</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">false</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$numberOfSampes</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#getBinaryBuffer" title="details" class="method-name">getBinaryBuffer</a>
+											(<span class="var-type">resource</span>&nbsp;<span class="var-name">$image</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getByteWidth" title="details" class="method-name">getByteWidth</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#getCopy" title="details" class="method-name">getCopy</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+										<a href="#getDimensions" title="details" class="method-name">getDimensions</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">resource</span>
+										<a href="#getGd2Handle" title="details" class="method-name">getGd2Handle</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getHeight" title="details" class="method-name">getHeight</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#getHistogram" title="details" class="method-name">getHistogram</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$channels</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$color</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">0xffffff</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getNextPowerOfTwo" title="details" class="method-name">getNextPowerOfTwo</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$number</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+										<a href="#getPixelColor" title="details" class="method-name">getPixelColor</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getPixelRgb" title="details" class="method-name">getPixelRgb</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+										<a href="#getPointColor" title="details" class="method-name">getPointColor</a>
+											(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getPointRgb" title="details" class="method-name">getPointRgb</a>
+											(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result">Position</span>
+										<a href="#getPosition" title="details" class="method-name">getPosition</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int[]</span>
+										<a href="#getSize" title="details" class="method-name">getSize</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">resource</span>
+										<a href="#getSkewAngle" title="details" class="method-name">getSkewAngle</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$numberOfSamples</span> = <span class="var-default">1</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$matrixSize</span> = <span class="var-default">128</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$debugMode</span> = <span class="var-default">false</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnMode</span> = <span class="var-default">1</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#getSubImage" title="details" class="method-name">getSubImage</a>
+											(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Vector.html">Vector</a></span>
+										<a href="#getVector" title="details" class="method-name">getVector</a>
+											([<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$round</span> = <span class="var-default">false</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$colorMask</span> = <span class="var-default">0</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">int</span>
+										<a href="#getWidth" title="details" class="method-name">getWidth</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">bool</span>
+										<a href="#isBinaryBufferEmpty" title="details" class="method-name">isBinaryBufferEmpty</a>
+											([<span class="var-type">double</span>&nbsp;<span class="var-name">$threshold</span> = <span class="var-default">0.01</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#rescale" title="details" class="method-name">rescale</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#resize" title="details" class="method-name">resize</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$widthOrDimensions</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$height</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$useResampling</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#resizeAndKeepAspect" title="details" class="method-name">resizeAndKeepAspect</a>
+											(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$widthOrDimensions</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$height</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$useResampling</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#rotate" title="details" class="method-name">rotate</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$angle</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">-1</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#saveAsGif" title="details" class="method-name">saveAsGif</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#saveAsJpeg" title="details" class="method-name">saveAsJpeg</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#saveAsPng" title="details" class="method-name">saveAsPng</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#setGamma" title="details" class="method-name">setGamma</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$level</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#setPixelColor" title="details" class="method-name">setPixelColor</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>&nbsp;<span class="var-name">$color</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#setPixelRgb" title="details" class="method-name">setPixelRgb</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rgb</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#setPointColor" title="details" class="method-name">setPointColor</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>&nbsp;<span class="var-name">$color</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#setPointRgb" title="details" class="method-name">setPointRgb</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rgb</span>)
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#show" title="details" class="method-name">show</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$die</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#toBinary" title="details" class="method-name">toBinary</a>
+											([<span class="var-type">bool</span>&nbsp;<span class="var-name">$useEdgeDetection</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#toGrayScale" title="details" class="method-name">toGrayScale</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#toNegative" title="details" class="method-name">toNegative</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+										<a href="#useMedian" title="details" class="method-name">useMedian</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$maskWidth</span> = <span class="var-default">3</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$maskHeight</span> = <span class="var-default">3</span>])
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$height" id="$height"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$height</span>
+						(line <span class="line-number">578</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A height of this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$image" id="$image"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">resource</span>
+			<span class="var-name">$image</span>
+						(line <span class="line-number">564</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A GD2 image resource.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$parentImage" id="$parentImage"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+			<span class="var-name">$parentImage</span>
+						(line <span class="line-number">592</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Viewport's parent image [not implemented]</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$position" id="$position"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">mixed</span>
+			<span class="var-name">$position</span>
+						(line <span class="line-number">585</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Viewport's position in the parent image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$width" id="$width"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$width</span>
+						(line <span class="line-number">571</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">A width of this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																	<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">601</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Creates new Image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>, [<span class="var-type">resource</span>&nbsp;<span class="var-name">$image</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$fileName</span><span class="var-description">: Image file name.</span>			</li>
+					<li>
+				<span class="var-type">resource</span>
+				<span class="var-name">$image</span><span class="var-description">: Image data.</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+				<span class="var-name">$size</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcreateImageMatrix" id="createImageMatrix"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">createImageMatrix</span> (line <span class="line-number">1719</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Creates the image buffer used by the skew functions.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Binary frame buffer</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			createImageMatrix
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">0</span>], <span class="var-type"></span>&nbsp;<span class="var-name">&$ratio</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$ratio</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$size</span><span class="var-description">: Size of the matrix.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$ratio</span><span class="var-description">: Rescale ratio of this image (value is returned by this method)</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">&$ratio</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodcrop" id="crop"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">crop</span> (line <span class="line-number">1054</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Crops current image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			crop
+		</span>
+					(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$dimensions</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: Position of the upper left point of the area to crop.</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+				<span class="var-name">$dimensions</span><span class="var-description">: Size of the area to crop.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddeskew" id="deskew"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">deskew</span> (line <span class="line-number">1189</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Deskews the image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			deskew
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">-1</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">true</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$debugMode</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$backgroundColor</span><span class="var-description">: Color of the background to use, or -1 (default) to use auto detection.</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$turboMode</span><span class="var-description">: Set true to enable turbo mode (may be less accurate).</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$debugMode</span><span class="var-description">: Set true to enable the debug mode.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methoddrawHoughLine" id="drawHoughLine"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">drawHoughLine</span> (line <span class="line-number">1422</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Draws the Hough line.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			drawHoughLine
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$distance</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$theta</span>, [<span class="var-type"></span>&nbsp;<span class="var-name">$color</span> = <span class="var-default">111111</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$distance</span><span class="var-description">: Distance from the origin.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$theta</span><span class="var-description">: Angle in degrees.</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$color</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodfindObjects" id="findObjects"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">findObjects</span> (line <span class="line-number">954</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Finds different shapes in the image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Image[]</span>
+		<span class="method-name">
+			findObjects
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$sortMode</span> = <span class="var-default">1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$sortMode</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetBackgroundColor" id="getBackgroundColor"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getBackgroundColor</span> (line <span class="line-number">1646</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">(Fast) Detects the background color of this image.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> RGB representation of the color, array of samples: array(rgb =&gt; propability), or rgb value if one sample selected.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			getBackgroundColor
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$numberOfSamples</span> = <span class="var-default">1</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">false</span>], <span class="var-type">int</span>&nbsp;<span class="var-name">$numberOfSampes</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$numberOfSampes</span><span class="var-description">: Number of detected colors (sorted by the propability).</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$turboMode</span><span class="var-description">: Set true to use faster alghoritm (slightly less accurate).</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$numberOfSamples</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetBinaryBuffer" id="getBinaryBuffer"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getBinaryBuffer</span> (line <span class="line-number">1452</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns binary frame buffer of the current image.</p>
+<p class="description"><p>In case of color/grayscale images, use Image::toBinary() first.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> String of chars.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getBinaryBuffer
+		</span>
+					(<span class="var-type">resource</span>&nbsp;<span class="var-name">$image</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">resource</span>
+				<span class="var-name">$image</span><span class="var-description">: Image to binarize.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetByteWidth" id="getByteWidth"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getByteWidth</span> (line <span class="line-number">1129</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a number of bytes used to store a single row of the image binary buffer.</p>
+<p class="description"><p>For example:     128 pixels = 16 bytes,     127 pixels = 16 bytes (127 bits of image + 1 bits of padding),     129 pixels = 17 bytes (129 bits of image + 7 bits of padding)</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Number of bytes per image row.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getByteWidth
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetCopy" id="getCopy"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getCopy</span> (line <span class="line-number">833</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns copy of this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			getCopy
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetDimensions" id="getDimensions"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getDimensions</span> (line <span class="line-number">1042</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns image dimensions.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+		<span class="method-name">
+			getDimensions
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetGd2Handle" id="getGd2Handle"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getGd2Handle</span> (line <span class="line-number">1500</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns GD2 resource handle of this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">resource</span>
+		<span class="method-name">
+			getGd2Handle
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetHeight" id="getHeight"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHeight</span> (line <span class="line-number">646</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets image height.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getHeight
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetHistogram" id="getHistogram"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getHistogram</span> (line <span class="line-number">1540</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Creates an image histogram.</p>
+	<ul class="tags">
+				<li><span class="field">todo:</span> Add another</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			getHistogram
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$channels</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$color</span> = <span class="var-default">0</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">0xffffff</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$turboMode</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$channels</span><span class="var-description">: Channels to draw, possibilities: Channel::RGB (default), Channel::RED, Channel::GREEN, Channel::BLUE</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$color</span><span class="var-description">: Foreground color.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$backgroundColor</span><span class="var-description">: Background color.</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$turboMode</span><span class="var-description">: Use turbo mode (less accurate).</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetNextPowerOfTwo" id="getNextPowerOfTwo"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getNextPowerOfTwo</span> (line <span class="line-number">623</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns next power of two representation of the given number.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Power of two representation.</li>
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getNextPowerOfTwo
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$number</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$number</span><span class="var-description">: Number to convert.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPixelColor" id="getPixelColor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPixelColor</span> (line <span class="line-number">758</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a color of the pixel at the X,Y coordinates.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Object describing the color of the pixel.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+		<span class="method-name">
+			getPixelColor
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$x</span><span class="var-description">: X-coordinate of the pixel to check.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$y</span><span class="var-description">: Y-coordinate of the pixel to check.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPixelRgb" id="getPixelRgb"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPixelRgb</span> (line <span class="line-number">747</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a RGB value of the pixel at the X,Y coordinates.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> RGB value of the pixel.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getPixelRgb
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$x</span><span class="var-description">: X-coordinate of the pixel to check.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$y</span><span class="var-description">: Y-coordinate of the pixel to check.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPointColor" id="getPointColor"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPointColor</span> (line <span class="line-number">778</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a color of the pixel at the coordinates described in the Point object.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Object describing the color of the pixel.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+		<span class="method-name">
+			getPointColor
+		</span>
+					(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: Position of the pixel to check.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPointRgb" id="getPointRgb"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPointRgb</span> (line <span class="line-number">768</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a RGB value of the pixel at the coordinates described in the Point object.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> RGB value of the pixel.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getPointRgb
+		</span>
+					(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: Position of the pixel to check.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetPosition" id="getPosition"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getPosition</span> (line <span class="line-number">928</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns viewport's position.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">Position</span>
+		<span class="method-name">
+			getPosition
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetSize" id="getSize"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSize</span> (line <span class="line-number">1207</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Calculates the size of this image.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> An array containing a width and height of this image.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int[]</span>
+		<span class="method-name">
+			getSize
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetSkewAngle" id="getSkewAngle"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSkewAngle</span> (line <span class="line-number">1221</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Detects the skew angle of this image using the Hough normal transform.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">resource</span>
+		<span class="method-name">
+			getSkewAngle
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$numberOfSamples</span> = <span class="var-default">1</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$matrixSize</span> = <span class="var-default">128</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$debugMode</span> = <span class="var-default">false</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$returnMode</span> = <span class="var-default">1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$numberOfSamples</span><span class="var-description">: Number of different angles to detect (sorted by a number of votes).</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$matrixSize</span><span class="var-description">: Size of the pixel matrix used for detection, bigger matrix = slower, more accurate detection.</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$debugMode</span><span class="var-description">: Draw detected Hough lines on this image? Works only in $returnMode = 1, default: false</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$returnMode</span><span class="var-description">: Return mode: 1 = array of detected angles (default), 2 = rendered transform results (Image instance), 3 = array of transform results</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetSubImage" id="getSubImage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getSubImage</span> (line <span class="line-number">854</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns a sub image of this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			getSubImage
+		</span>
+					(<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+				<span class="var-name">$size</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetVector" id="getVector"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">getVector</span> (line <span class="line-number">867</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Creates a vector from a part of an image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Vector.html">Vector</a></span>
+		<span class="method-name">
+			getVector
+		</span>
+					([<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>&nbsp;<span class="var-name">$position</span> = <span class="var-default">null</span>], [<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>&nbsp;<span class="var-name">$size</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$round</span> = <span class="var-default">false</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$colorMask</span> = <span class="var-default">0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: X,Y-coordinates of the left upper-most point of the image.</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Dimensions.html">Dimensions</a></span>
+				<span class="var-name">$size</span><span class="var-description">: Width and height of the image.</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$round</span><span class="var-description">: Round the values?</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$colorMask</span><span class="var-description">: Color bitmask.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetWidth" id="getWidth"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getWidth</span> (line <span class="line-number">637</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Gets image width.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getWidth
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodisBinaryBufferEmpty" id="isBinaryBufferEmpty"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">isBinaryBufferEmpty</span> (line <span class="line-number">1485</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Detects if the binary buffer of this image is empty after conversion to two-colors mode.</p>
+<p class="description"><p>Empty buffer may mean that the conversion failed.</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> True if empty, false otherwise.</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			isBinaryBufferEmpty
+		</span>
+					([<span class="var-type">double</span>&nbsp;<span class="var-name">$threshold</span> = <span class="var-default">0.01</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">double</span>
+				<span class="var-name">$threshold</span><span class="var-description">: The threshold.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrescale" id="rescale"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">rescale</span> (line <span class="line-number">726</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Scales this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			rescale
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$x</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$y</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$x</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$y</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodresize" id="resize"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">resize</span> (line <span class="line-number">668</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Resizes this image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			resize
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$widthOrDimensions</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$height</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$useResampling</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$widthOrDimensions</span><span class="var-description">: New width (or Dimensions) of the this image.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$height</span><span class="var-description">: New height of this image (used only if $widthOrDimensions is not an instance of Dimensions class)</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$useResampling</span><span class="var-description">: Use resampling? Default: true (slower)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodresizeAndKeepAspect" id="resizeAndKeepAspect"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">resizeAndKeepAspect</span> (line <span class="line-number">695</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Resizes this image and keeps the image aspect.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			resizeAndKeepAspect
+		</span>
+					(<span class="var-type">mixed</span>&nbsp;<span class="var-name">$widthOrDimensions</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$height</span> = <span class="var-default">null</span>], [<span class="var-type">bool</span>&nbsp;<span class="var-name">$useResampling</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">mixed</span>
+				<span class="var-name">$widthOrDimensions</span><span class="var-description">: New width (or Dimensions) of the this image.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$height</span><span class="var-description">: New height of this image (used only if $widthOrDimensions is not an instance of Dimensions class)</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$useResampling</span><span class="var-description">: Use resampling? Default: true (slower)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodrotate" id="rotate"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">rotate</span> (line <span class="line-number">939</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Rotates image by a given angle.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			rotate
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$angle</span>, [<span class="var-type">int</span>&nbsp;<span class="var-name">$backgroundColor</span> = <span class="var-default">-1</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$angle</span><span class="var-description">: Angle in degrees (not radians).</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$backgroundColor</span><span class="var-description">: Backround color used to fill empty spaces after rotation (or -1 for autodetection).</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsaveAsGif" id="saveAsGif"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">saveAsGif</span> (line <span class="line-number">1165</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Saves this image to the disk.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			saveAsGif
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$fileName</span><span class="var-description">: File name.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsaveAsJpeg" id="saveAsJpeg"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">saveAsJpeg</span> (line <span class="line-number">1176</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Saves this image to the disk.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			saveAsJpeg
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$fileName</span><span class="var-description">: File name.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsaveAsPng" id="saveAsPng"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">saveAsPng</span> (line <span class="line-number">1154</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Saves this image to the disk.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			saveAsPng
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$fileName</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$fileName</span><span class="var-description">: File name.</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetGamma" id="setGamma"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setGamma</span> (line <span class="line-number">655</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets image gamma.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			setGamma
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$level</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$level</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPixelColor" id="setPixelColor"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPixelColor</span> (line <span class="line-number">811</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets a color of the pixel at the X,Y coordinates.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			setPixelColor
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>&nbsp;<span class="var-name">$color</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$x</span><span class="var-description">: X-coordinate of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$y</span><span class="var-description">: Y-coordinate of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+				<span class="var-name">$color</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPixelRgb" id="setPixelRgb"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPixelRgb</span> (line <span class="line-number">823</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets a RGB value of the pixel at the X,Y coordinates.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			setPixelRgb
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$x</span>, <span class="var-type">int</span>&nbsp;<span class="var-name">$y</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rgb</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$x</span><span class="var-description">: X-coordinate of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$y</span><span class="var-description">: Y-coordinate of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rgb</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPointColor" id="setPointColor"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPointColor</span> (line <span class="line-number">788</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets a color of the pixel at the coordinates described in the Point object.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			setPointColor
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>&nbsp;<span class="var-name">$color</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: Position of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Color.html">Color</a></span>
+				<span class="var-name">$color</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetPointRgb" id="setPointRgb"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setPointRgb</span> (line <span class="line-number">799</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets a RGB value of the pixel at the coordinates described in the Point object.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			setPointRgb
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$position</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$rgb</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"><a href="../../Lotos/Imaging/Point.html">Point</a></span>
+				<span class="var-name">$position</span><span class="var-description">: Position of the pixel to set.</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$rgb</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodshow" id="show"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">show</span> (line <span class="line-number">1139</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Displays the image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			show
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$die</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$die</span><span class="var-description">: Die after displaying an image? Default: false</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtoBinary" id="toBinary"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">toBinary</span> (line <span class="line-number">1510</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Reduces color palette of this image to two colors (1 = pixel set, 0 = background).</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			toBinary
+		</span>
+					([<span class="var-type">bool</span>&nbsp;<span class="var-name">$useEdgeDetection</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$useEdgeDetection</span><span class="var-description">: Use edge detection before converting to two colors?</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodtoGrayScale" id="toGrayScale"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">toGrayScale</span> (line <span class="line-number">842</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts this image to grayscale.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			toGrayScale
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodtoNegative" id="toNegative"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">toNegative</span> (line <span class="line-number">1114</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Reverses all colors of the image.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			toNegative
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methoduseMedian" id="useMedian"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">useMedian</span> (line <span class="line-number">1599</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Uses median filter to reduce image noise.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../../Lotos/Imaging/Image.html">Image</a></span>
+		<span class="method-name">
+			useMedian
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$maskWidth</span> = <span class="var-default">3</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$maskHeight</span> = <span class="var-default">3</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$maskWidth</span><span class="var-description">: Width of the median mask (default: 3)</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$maskHeight</span><span class="var-description">: Height of the median mask (default: 3)</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 04 Nov 2011 17:56:15 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.2</a>
+	</p>
+	</div></body>
+</html>
