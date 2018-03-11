@@ -34,16 +34,16 @@ Currently it can:
 * Apply experimental blur effect with customizable kernel size.
 
 ## Sample operations
-![Example](auto_deskewing.png)
-![Example](background_color.png)
-![Example](histogram.png)
-![Example](hue_rotation.jpg)
-![Example](noise_reduction.png)
-![Example](ocr_captcha_reader.PNG)
-![Example](ocr_text_recognition.png)
-![Example](pastelization.png)
-![Example](vibrant_colors.jpg)
-![Example](skew_detection.png)
+![Example](http://php.webtutor.pl/tigra-library/auto_deskewing.png)
+![Example](http://php.webtutor.pl/tigra-library/background_color.png)
+![Example](http://php.webtutor.pl/tigra-library/histogram.png)
+![Example](http://php.webtutor.pl/tigra-library/hue_rotation.jpg)
+![Example](http://php.webtutor.pl/tigra-library/noise_reduction.png)
+![Example](http://php.webtutor.pl/tigra-library/ocr_captcha_reader.PNG)
+![Example](http://php.webtutor.pl/tigra-library/ocr_text_recognition.png)
+![Example](http://php.webtutor.pl/tigra-library/pastelization.png)
+![Example](http://php.webtutor.pl/tigra-library/vibrant_colors.jpg)
+![Example](http://php.webtutor.pl/tigra-library/skew_detection.png)
 
 ## Sample code
 
