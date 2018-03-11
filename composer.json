@@ -1,0 +1,63 @@
+{
+  "name": "tigra-image-library/gd2-imaging",
+  "description": "An advanced image processing library.",
+  "type": "library",
+  "license": "LGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Artur Graniszewski",
+      "email": "artur.graniszewski@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "artur.graniszewski@gmail.com",
+    "source": "https://github.com/artur-graniszewski/tigra-image-library",
+    "issues": "https://github.com/artur-graniszewski/tigra-image-library/issues"
+  },
+  "homepage": "https://github.com/artur-graniszewski/tigra-image-library",
+  "keywords": [
+    "imaging",
+    "deskew",
+    "gd2",
+    "php",
+    "rescale",
+    "captcha",
+    "ocr",
+    "quantizer",
+    "blur",
+    "hsl",
+    "hsv",
+    "hue",
+    "rotate",
+    "saturation",
+    "luminance",
+    "remove noise",
+    "hdr",
+    "pixel shader",
+    "pastel",
+    "crop",
+    "histogram"
+  ],
+  "require": {
+    "php": "^5.4",
+    "ext-gd2": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Tigra\\": "."
+    }
+  },
+  "autoload-dev": {
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@test"
+    ],
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "test": "phpunit"
+  }
+}
